@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
   s.authors     = ["Bodacious"]
   s.email       = ["gavin@gavinmorrice.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Includes ad JS Cookie library into your Rails 3.1+ application}
+  s.description = %q{Includes a JS Cookie library into your Rails 3.1.+ application. This library allows you to read, write and destroy cookies using JS/Coffeescript}
 
   s.rubyforge_project = "oreo"
 
   s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  s.test_files    = ""
+  s.executables   = ""
   s.require_paths = ["lib"]
 end
